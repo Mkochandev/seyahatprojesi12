@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode styles */
+.dark {
+    @apply bg-[#101D23];
+}
+
+.dark header {
+    @apply bg-[#101D23]/95 border-[#687E3F]/20;
+}
+
+.dark header a {
+    @apply text-[#D0C7B6];
+}
+
+.dark header nav a:hover {
+    @apply bg-[#687E3F]/20;
+}
+
+.dark header #darkModeToggle {
+    @apply text-[#D0C7B6] hover:bg-[#687E3F]/20;
+}
+
+.dark header .border-[#D85128] {
+    @apply border-[#D85128]/80 text-[#D85128]/90;
+}
+
+.dark header .bg-[#D85128] {
+    @apply bg-[#D85128]/90 hover:bg-[#D85128];
+}
